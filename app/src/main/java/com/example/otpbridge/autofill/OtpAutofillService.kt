@@ -4,7 +4,6 @@ import android.app.assist.AssistStructure
 import android.content.Context
 import android.graphics.drawable.ColorDrawable
 import android.os.CancellationSignal
-import android.service.autofill.AutofillId
 import android.service.autofill.AutofillService
 import android.service.autofill.Dataset
 import android.service.autofill.FillCallback
@@ -14,6 +13,7 @@ import android.service.autofill.FillResponse
 import android.service.autofill.SaveCallback
 import android.service.autofill.SaveRequest
 import android.view.View
+import android.view.autofill.AutofillId
 import android.view.autofill.AutofillValue
 import android.widget.RemoteViews
 import com.example.otpbridge.R
